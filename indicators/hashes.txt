@@ -1,0 +1,10 @@
+# Woolexa Stealer — file hashes
+# mcmod-1.0.0.jar  (malicious Fabric mod, 9,719,067 bytes)
+
+f3bbbb6f0e2018b7cec514b44f0823eba30fa70383ca5a0c5d7a9f0c6563ff77  mcmod-1.0.0.jar  # SHA256
+0bf9a37ef312f16166acd6067af3060f0c49ef5d  mcmod-1.0.0.jar  # SHA1
+68afef46394acdd957e60640256089b3  mcmod-1.0.0.jar  # MD5
+
+# Not retained for hashing:
+#   Minecraft Nightmare 1.0.0.mrpack  (delivery container)
+#   payload_decrypted.bin             (decrypted in-memory payload)

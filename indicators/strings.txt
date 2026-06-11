@@ -1,0 +1,17 @@
+# Woolexa Stealer — host / code indicators
+
+# Filenames
+Minecraft Nightmare 1.0.0.mrpack
+mcmod-1.0.0.jar
+ReflectiveClrHost.dll
+reflective_clr_host.pdb
+payload_decrypted.bin
+
+# Code constants
+BackendMinecraft
+qweqwe1
+Shelcodeloader-embedded-key-v1
+AB AE A1 61 0C 9B 23 AA 03 5B F1 42 34 63 9C 2A
+
+# PDB path
+C:\Users\KUXEY\Desktop\shelcodeloader\NativeHost\x64\Release\reflective_clr_host.pdb
