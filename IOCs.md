@@ -20,6 +20,17 @@ Machine-readable copies are in [`indicators/`](indicators/).
 | ASN | `AS210558` | Origin hosting (`abuse@as210558[.]net`) |
 | Registrar | GoDaddy | Domain registered ~mid-March 2026 |
 
+### Rebuilt infrastructure (added 2026-09-25)
+
+| Type | Indicator | Notes |
+|---|---|---|
+| Domain | `wlxproject[.]com` | Successor panel; registered 2026-07-26 13:39 UTC at Dynadot (privacy-proxied) |
+| URL | `hxxps://wlxproject[.]com/` | Turkish access-key login ("Workspace'e eriş"); key format `wlx_` + 32 chars |
+| IPv4 | `172.67.204[.]163` | Cloudflare front (2026-09-25) |
+| IPv4 | `104.21.85[.]110` | Cloudflare front (2026-07-28, 2026-09-25) |
+| Nameservers | `jerome.ns.cloudflare[.]com`, `simone.ns.cloudflare[.]com` | |
+| Registrar | Dynadot | `abuse@dynadot[.]com` |
+
 ## Host / file
 
 | Type | Indicator | Notes |
@@ -64,12 +75,18 @@ Machine-readable copies are in [`indicators/`](indicators/).
 | Minecraft username | `dailussxd` |
 | Minecraft UUID | `ac4b71bf-ca5a-4801-9654-829d67a9fc3b` |
 | Discord sender ID | `543708648233369610` |
-| Language | Turkish (code + C2 panel) |
+| Language | Turkish (code + both C2 panels) |
+| Handle (ransom contact, victim report 2026-09) | `kuxey` |
+| Social handles (public, bio links to `wlxproject[.]com`) | `3xkuxey`, `3xkuzey` — display name "Kuzey", bio "Malware dev#" |
+| Build keys (per QuantumCore) | `yatowoolexa`, `mit` |
+| Steam Web API key (per QuantumCore) | `440D7F4D810EF9298D25EDDF37C1F902` |
 
 ## Third-party references
 
 | Date | Source |
 |---|---|
+| 2026-07-28 | urlscan (wlxproject panel): `hxxps://urlscan[.]io/result/019fa79f-926c-71d5-b672-e8fcaba84bea/` |
+| 2026-06-17 | QuantumCore full analysis: `hxxps://quantumcore.github[.]io/2026/06/17/woolexa-stealer-analysis.html` |
 | 2026-05-29 | urlscan: `hxxps://urlscan[.]io/result/019e7349-8f64-76cc-addf-38e5acc5ddc4/` |
 | 2026-04-27 | urlscan: `hxxps://urlscan[.]io/result/019dcebe-cf65-77bf-822b-dbdce6e828e9/` |
 | 2026-03-17 | urlscan: `hxxps://urlscan[.]io/result/019cfafa-0fb1-70be-8b17-e48f82c80a62/` |

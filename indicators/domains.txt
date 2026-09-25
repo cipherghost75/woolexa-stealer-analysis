@@ -8,6 +8,14 @@ wss://bigscreenmod[.]com/agent-ws
 104.21.64[.]58
 172.67.176[.]167
 
+# Rebuilt infrastructure (added 2026-09-25)
+wlxproject[.]com
+hxxps://wlxproject[.]com/
+172.67.204[.]163
+104.21.85[.]110
+jerome.ns.cloudflare[.]com
+simone.ns.cloudflare[.]com
+
 # URI paths
 /api/collect
 /api/progress

@@ -10,6 +10,8 @@
 | 2026-04-27 | Rebuilt with Turkish login page ("Bireysel Giriş") |
 | 2026-05-29 | Fully operational REVERSE Panel observed |
 | 2026-06-06 | Cloudflare restricted access (403 Forbidden confirmed) |
+| 2026-07-26 | Successor domain `wlxproject[.]com` registered at Dynadot (Cloudflare-fronted) |
+| 2026-07-28 | Public urlscan of `wlxproject[.]com` shows a Turkish access-key login panel (`wlx_` key prefix) |
 
 ## Investigation & disclosure
 
@@ -24,6 +26,9 @@
 | 2026-06-06 17:05 EST | IC3 complaint #2 (full technical evidence) | Submission `e86902083eed482fb763a61e37bae63f` |
 | 2026-06-06 | Discord abuse report filed for sender account | Account `543708648233369610` |
 | 2026-06-06 | Mojang/Microsoft report filed | `dailussxd` / UUID `ac4b71bf-ca5a-4801-9654-829d67a9fc3b` |
+| 2026-06-17 | QuantumCore publishes an independent full analysis of the same sample | See README → References |
+| 2026-09-23 | Second victim report received via a fellow researcher: household infected, Hotmail/Gmail hijacked, ransom demand from handle `kuxey`; victim traced the actor's public social accounts and `wlxproject[.]com` | Domain reported to Cloudflare and Dynadot by the reporter |
+| 2026-09-25 | Attribution update published (this repo) | PDB username `KUXEY` ↔ handle `kuxey` |
 
 ## Corroborating signals
 
@@ -36,4 +41,5 @@
 - The actor was knocked down once (March 2026) and rebuilt — expect a new domain if they resurface.
 - Future builds will likely reuse the XOR key (`qweqwe1`) and AES key derivation (`SHA-256("Shelcodeloader-embedded-key-v1")`), making the YARA constants durable across versions.
 - The REVERSE Panel supports multiple operators via build keys — other victims likely exist.
-- Monitoring targets: handle `shelcodeloader`, Minecraft account `dailussxd`, family name "Woolexa Stealer".
+- Monitoring targets: handles `shelcodeloader`, `kuxey`, `3xkuxey`, `3xkuzey`; Minecraft account `dailussxd`; family name "Woolexa Stealer" / brand "WLX".
+- **2026-09-25:** the "expect a new domain" prediction held — `wlxproject[.]com` went up seven weeks after the takedown, on a different registrar (Dynadot instead of GoDaddy) but the same Cloudflare-fronted, Turkish-language, key-login pattern. The operator handle is now tied to public social accounts that openly advertise "Malware dev".

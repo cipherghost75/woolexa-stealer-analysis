@@ -15,3 +15,11 @@ AB AE A1 61 0C 9B 23 AA 03 5B F1 42 34 63 9C 2A
 
 # PDB path
 C:\Users\KUXEY\Desktop\shelcodeloader\NativeHost\x64\Release\reflective_clr_host.pdb
+
+# Actor handles (added 2026-09-25)
+shelcodeloader
+KUXEY
+kuxey
+3xkuxey
+3xkuzey
+wlx_            # access-key prefix on the wlxproject[.]com panel (32-char key)
